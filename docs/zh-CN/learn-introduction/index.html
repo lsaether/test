@@ -1,0 +1,83 @@
+<!DOCTYPE html><html lang="zh-CN"><head><meta charSet="utf-8"/><meta http-equiv="X-UA-Compatible" content="IE=edge"/><title>Polkadot · Kusama Guide</title><meta name="viewport" content="width=device-width"/><meta name="generator" content="Docusaurus"/><meta name="description" content="Polkadot is a sharded blockchain based on the thesis that the world will have several blockchains that need to interact. Polkadot unites scalability, interoperability, and security."/><meta name="docsearch:language" content="zh-CN"/><meta property="og:title" content="Polkadot · Kusama Guide"/><meta property="og:type" content="website"/><meta property="og:url" content="https://lsaether.github.io/testindex"/><meta property="og:description" content="Polkadot is a sharded blockchain based on the thesis that the world will have several blockchains that need to interact. Polkadot unites scalability, interoperability, and security."/><meta name="twitter:card" content="summary"/><link rel="shortcut icon" href="/testimg/kusama-brand-assets/Kusama Brand Assets/Symbol (Canary)/Kusama_Canary_white.png"/><link rel="stylesheet" href="https://cdn.jsdelivr.net/docsearch.js/1/docsearch.min.css"/><link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/default.min.css"/><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/katex.min.css"/><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Muli&amp;display=swap"/><link rel="stylesheet" href="/css/klaro.css"/><script type="text/javascript" src="https://buttons.github.io/buttons.js"></script><script type="text/javascript" src="https://wiki.polkadot.network/js/load.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/katex.js"></script><script type="text/javascript" src="/js/custom.js"></script><script type="text/javascript" src="/js/klaro-config.js"></script><script type="text/javascript" src="/js/klaro.js"></script><script src="https://unpkg.com/vanilla-back-to-top@7.1.14/dist/vanilla-back-to-top.min.js"></script><script>
+        document.addEventListener('DOMContentLoaded', function() {
+          addBackToTop(
+            {"zIndex":100}
+          )
+        });
+        </script><script src="/testjs/scrollSpy.js"></script><link rel="stylesheet" href="/testcss/main.css"/><script src="/testjs/codetabs.js"></script></head><body class="sideNavVisible separateOnPageNav"><div class="fixedHeaderContainer"><div class="headerWrapper wrapper"><header><a href="/testzh-CN"><img class="logo" src="/testimg/kusama-brand-assets/Kusama Brand Assets/Symbol (Canary)/Kusama_Canary_white.png" alt="Kusama Guide"/><h2 class="headerTitleWithLogo">Kusama Guide</h2></a><div class="navigationWrapper navigationSlider"><nav class="slidingNav"><ul class="nav-site nav-site-internal"><li class=""><a href="/testdocs/zh-CN/kusama-index" target="_self">Kusama</a></li><li class="navSearchWrapper reactNavSearchWrapper"><input type="text" id="search_input_react" placeholder="Search" title="Search"/></li><span><li><a id="languages-menu" href="#"><img class="languages-icon" src="/testimg/language.svg" alt="Languages icon"/>中文</a><div id="languages-dropdown" class="hide"><ul id="languages-dropdown-items"><li><a href="/testdocs/en/learn-introduction">English</a></li><li><a href="https://crowdin.com/project/polkadot-wiki" target="_blank" rel="noreferrer noopener">参与翻译</a></li></ul></div></li><script>
+        const languagesMenuItem = document.getElementById("languages-menu");
+        const languagesDropDown = document.getElementById("languages-dropdown");
+        languagesMenuItem.addEventListener("click", function(event) {
+          event.preventDefault();
+
+          if (languagesDropDown.className == "hide") {
+            languagesDropDown.className = "visible";
+          } else {
+            languagesDropDown.className = "hide";
+          }
+        });
+      </script></span></ul></nav></div></header></div></div><div class="navPusher"><div class="docMainWrapper wrapper"><div class="container mainContainer docsContainer"><div class="wrapper"><div class="post"><header class="postHeader"><a class="edit-page-link button" href="https://crowdin.com/project/polkadot-wiki/zh-CN" target="_blank" rel="noreferrer noopener">Translate</a><h1 id="__docusaurus" class="postHeaderTitle">Polkadot</h1></header><article><div><span><p>Polkadot is a sharded blockchain based on the thesis that the world will have several blockchains that need to interact. Polkadot unites scalability, interoperability, and security.</p>
+<h2><a class="anchor" aria-hidden="true" id="为什么是-polkadot？"></a><a href="#为什么是-polkadot？" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>为什么是 Polkadot？</h2>
+<p>Polkadot enables scalability by allowing specialized blockchains to communicate with each other in a secure, trust-free environment.</p>
+<p>Polkadot is built to connect and secure unique blockchains, whether they be public, permission-less networks, private consortium chains, or oracles and other Web3 technologies. It enables an internet where independent blockchains can exchange information under common security guarantees.</p>
+<p>Polkadot is a living network with the core pillars of governance and upgradability. The network has an advanced suite of governance tools and, using the WebAssembly standard as a &quot;meta-protocol&quot;, can autonomously deploy network upgrades. Polkadot adapts to your growing needs without the risks of network forks.</p>
+<p>By connecting these dots, Polkadot serves as a foundational part of a decentralized web, where users control their data and are not limited by trust bounds within the network.</p>
+<h2><a class="anchor" aria-hidden="true" id="什么是-polkadot？"></a><a href="#什么是-polkadot？" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>什么是 Polkadot？</h2>
+<p>The Polkadot network uses a sharded model where shards - called &quot;<a href="learn-parachains">parachains</a>&quot; - in the network have unique state transition functions (STF). Based on Polkadot's design, as long as a chain's logic can compile to Wasm, then it can connect to the Polkadot network as a parachain.</p>
+<p>Polkadot has a Relay Chain acting as the main chain of the system. Parachains construct and propose blocks to validators on the Relay Chain, where the blocks undergo rigorous availability and validity checks before being added to the finalized chain. As the Relay Chain provides the security guarantees, collators don't have any security responsibilities, and thus do not require a robust incentive system.</p>
+<p>In order to interact with chains that want to use their own finalization process (e.g. Bitcoin), Polkadot has <a href="learn-bridges">bridge parachains</a> that offer two-way compatibility.</p>
+<p>The Cross-Chain Messaging Protocol (XCMP) allows parachains to send messages of any type to each other. The shared security and validation logic of the Relay Chain provide the environment for trust-free message passing that opens up true interoperability.</p>
+<h2><a class="anchor" aria-hidden="true" id="深入了解"></a><a href="#深入了解" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>深入了解</h2>
+<ul>
+<li><a href="learn-architecture">架构</a> - Polkadot 架构概述。</li>
+<li><a href="learn-bridges">转接桥</a> - 转接桥的概述。</li>
+<li><a href="learn-cryptography">Cryptography</a> - Describes the cryptography used in Polkadot and where it is employed in the protocol.</li>
+<li><a href="learn-consensus">Consensus</a> - Describes what kind of consensus is used in the Polkadot protocol and how it compares to other consensus protocols.</li>
+<li><a href="learn-DOT"> DOT </a> 关于 DOT 的资料，即 Polkadot 协议的原生代币。</li>
+<li><a href="learn-governance">治理</a> - 什么是区块链治理及其在 Polkadot 中的方式。</li>
+<li><a href="learn-crosschain">Cross-chain Communication</a> - Information regarding how cross-chain messaging works.</li>
+<li><a href="learn-parachains">平行链</a> - 什么是平行链以及它们如何运作。</li>
+<li><a href="learn-auction">Parachain Auctions</a> - Describes the mechanism for the auctioning of parachain slots.</li>
+<li><a href="learn-parathreads">Parathreads</a> - A parathread is a way to share the scarce resource of a parachain slot among many parachain-&quot;threads&quot;.</li>
+<li><a href="learn-phragmen"> 菲拉格曼法 (Phragmen) </a> - 有关菲拉格曼法的信息。</li>
+<li><a href="learn-polkadot-host">Polkadot Host</a> - General information on the Polkadot Host.</li>
+<li><a href="learn-randomness">Randomness</a> - What Polkadot uses for randomness, as well as why and how it is used.</li>
+<li><a href="learn-security">安全性</a> - Polkadot 网络如何保持安全。</li>
+<li><a href="learn-spree"> SPREE </a>- 共享受保护 runtime 执行环境。</li>
+<li><a href="learn-staking">抵押</a> - 抵押在 Polkadot 中的原理。</li>
+<li><a href="learn-treasury">财政部</a> - 如何在 Polkadot 和 Kusama 上提出支出建议。</li>
+<li><a href="learn-wasm"> WebAssembly </a> - WebAssembly 的描述及其在 Polkadot 中的用法。</li>
+</ul>
+<h2><a class="anchor" aria-hidden="true" id="资源"></a><a href="#资源" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>资源</h2>
+<ul>
+<li><a href="glossary">词汇表</a> - Polkadot 文档中使用的特定领域术语的定义。</li>
+<li><a href="learn-implementations">Implementations</a> - List of implementations of the Polkadot protocol (who is building them and links to the source code).</li>
+<li><a href="learn-relevant-links">链接</a> - 外部链接的完整列表。</li>
+<li><a href="learn-roadmap">路线图</a> - Polkadot 的实现路线图。</li>
+<li><a href="learn-faq">常见问题</a> - 回答有关 Polkadot 的一些常见问题。</li>
+</ul>
+</span></div></article></div><div class="docLastUpdate"><em>Last updated on 5/5/2020 by w3fbot</em></div><div class="docs-prevnext"></div></div></div><nav class="onPageNav"><ul class="toc-headings"><li><a href="#为什么是-polkadot？">为什么是 Polkadot？</a></li><li><a href="#什么是-polkadot？">什么是 Polkadot？</a></li><li><a href="#深入了解">深入了解</a></li><li><a href="#资源">资源</a></li></ul></nav></div><footer class="nav-footer" id="footer"><section class="sitemap"><a href="/test" class="nav-home"><img src="/testimg/kusama-brand-assets/Kusama Brand Assets/Symbol (Canary)/Kusama_Canary_white.png" alt="Kusama Guide" width="66" height="58"/></a><div><a href="https://stackoverflow.com/questions/tagged/polkadot" target="_blank" rel="noreferrer noopener">Stack Overflow</a><a href="https://riot.w3f.tech/#/room/#polkadot-watercooler:matrix.org">Polkadot Watercooler (Riot Chat)</a><a href="https://twitter.com/polkadotnetwork" target="_blank" rel="noreferrer noopener">Twitter</a></div><a class="github-button" href="https://github.com/paritytech/polkadot" data-icon="octicon-star" data-count-href="/paritytech/polkadot/stargazers" data-show-count="true" data-count-aria-label="# stargazers on GitHub" aria-label="Star this project on GitHub">Star</a></section><section class="row"><div class="copyright">Copyright © 2020 Web3 Foundation</div><a class="item" href="https://polkadot.network/privacy/">Privacy Policy</a><a class="item" href="#" id="cookie-settings">Cookie Settings</a><script>
+              var cookieSettings = document.getElementById('cookie-settings');
+              cookieSettings.onclick = function() {
+                return klaro.show();
+              };
+              </script></section></footer></div><script type="text/javascript" src="https://cdn.jsdelivr.net/docsearch.js/1/docsearch.min.js"></script><script>
+                document.addEventListener('keyup', function(e) {
+                  if (e.target !== document.body) {
+                    return;
+                  }
+                  // keyCode for '/' (slash)
+                  if (e.keyCode === 191) {
+                    const search = document.getElementById('search_input_react');
+                    search && search.focus();
+                  }
+                });
+              </script><script>
+              var search = docsearch({
+                
+                apiKey: '8bfa06b56bb8f33e5698c7f40b00b38f',
+                indexName: 'polkadot',
+                inputSelector: '#search_input_react',
+                algoliaOptions: {"facetFilters":["language:zh-CN"]}
+              });
+            </script></body></html>

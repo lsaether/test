@@ -1,0 +1,199 @@
+<!DOCTYPE html><html lang="zh-CN"><head><meta charSet="utf-8"/><meta http-equiv="X-UA-Compatible" content="IE=edge"/><title>Kusama Faucet · Kusama Guide</title><meta name="viewport" content="width=device-width"/><meta name="generator" content="Docusaurus"/><meta name="description" content="In order to prevent Sybil attacks, the faucet will only drip to users that have a GitHub account that was created prior to June, 21, 2019. If you do not have a GitHub account that was created prior to this date, please use the [KSM Request Form](https://docs.google.com/forms/d/e/1FAIpQLSfGAqjXY3xLokwl7A-R4JZAnrBnSI3BVXKMKDLCKVtHaxgs-w/formResponse) to request tokens."/><meta name="docsearch:language" content="zh-CN"/><meta property="og:title" content="Kusama Faucet · Kusama Guide"/><meta property="og:type" content="website"/><meta property="og:url" content="https://lsaether.github.io/testindex"/><meta property="og:description" content="In order to prevent Sybil attacks, the faucet will only drip to users that have a GitHub account that was created prior to June, 21, 2019. If you do not have a GitHub account that was created prior to this date, please use the [KSM Request Form](https://docs.google.com/forms/d/e/1FAIpQLSfGAqjXY3xLokwl7A-R4JZAnrBnSI3BVXKMKDLCKVtHaxgs-w/formResponse) to request tokens."/><meta name="twitter:card" content="summary"/><link rel="shortcut icon" href="/testimg/kusama-brand-assets/Kusama Brand Assets/Symbol (Canary)/Kusama_Canary_white.png"/><link rel="stylesheet" href="https://cdn.jsdelivr.net/docsearch.js/1/docsearch.min.css"/><link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/default.min.css"/><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/katex.min.css"/><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Muli&amp;display=swap"/><link rel="stylesheet" href="/css/klaro.css"/><script type="text/javascript" src="https://buttons.github.io/buttons.js"></script><script type="text/javascript" src="https://wiki.polkadot.network/js/load.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/katex.js"></script><script type="text/javascript" src="/js/custom.js"></script><script type="text/javascript" src="/js/klaro-config.js"></script><script type="text/javascript" src="/js/klaro.js"></script><script src="https://unpkg.com/vanilla-back-to-top@7.1.14/dist/vanilla-back-to-top.min.js"></script><script>
+        document.addEventListener('DOMContentLoaded', function() {
+          addBackToTop(
+            {"zIndex":100}
+          )
+        });
+        </script><script src="/testjs/scrollSpy.js"></script><link rel="stylesheet" href="/testcss/main.css"/><script src="/testjs/codetabs.js"></script></head><body class="sideNavVisible separateOnPageNav"><div class="fixedHeaderContainer"><div class="headerWrapper wrapper"><header><a href="/testzh-CN"><img class="logo" src="/testimg/kusama-brand-assets/Kusama Brand Assets/Symbol (Canary)/Kusama_Canary_white.png" alt="Kusama Guide"/><h2 class="headerTitleWithLogo">Kusama Guide</h2></a><div class="navigationWrapper navigationSlider"><nav class="slidingNav"><ul class="nav-site nav-site-internal"><li class="siteNavGroupActive"><a href="/testdocs/zh-CN/kusama-index" target="_self">Kusama</a></li><li class="navSearchWrapper reactNavSearchWrapper"><input type="text" id="search_input_react" placeholder="Search" title="Search"/></li><span><li><a id="languages-menu" href="#"><img class="languages-icon" src="/testimg/language.svg" alt="Languages icon"/>中文</a><div id="languages-dropdown" class="hide"><ul id="languages-dropdown-items"><li><a href="/testdocs/en/kusama-faucet">English</a></li><li><a href="https://crowdin.com/project/polkadot-wiki" target="_blank" rel="noreferrer noopener">参与翻译</a></li></ul></div></li><script>
+        const languagesMenuItem = document.getElementById("languages-menu");
+        const languagesDropDown = document.getElementById("languages-dropdown");
+        languagesMenuItem.addEventListener("click", function(event) {
+          event.preventDefault();
+
+          if (languagesDropDown.className == "hide") {
+            languagesDropDown.className = "visible";
+          } else {
+            languagesDropDown.className = "hide";
+          }
+        });
+      </script></span></ul></nav></div></header></div></div><div class="navPusher"><div class="docMainWrapper wrapper"><div class="docsNavContainer" id="docsNav"><nav class="toc"><div class="toggleNav"><section class="navWrapper wrapper"><div class="navBreadcrumb wrapper"><div class="navToggle" id="navToggler"><div class="hamburger-menu"><div class="line1"></div><div class="line2"></div><div class="line3"></div></div></div><h2><i>›</i><span>Get Started</span></h2><div class="tocToggler" id="tocToggler"><i class="icon-toc"></i></div></div><div class="navGroups"><div class="navGroup"><h3 class="navGroupCategoryTitle collapsible">Kusama<span class="arrow"><svg width="24" height="24" viewBox="0 0 24 24"><path fill="#565656" d="M7.41 15.41L12 10.83l4.59 4.58L18 14l-6-6-6 6z"></path><path d="M0 0h24v24H0z" fill="none"></path></svg></span></h3><ul class="hide"><li class="navListItem"><a class="navItem" href="/testdocs/zh-CN/kusama-index">Home</a></li><div class="navGroup subNavGroup"><h4 class="navGroupSubcategoryTitle">Get Started</h4><ul><li class="navListItem navListItemActive"><a class="navItem" href="/testdocs/zh-CN/kusama-faucet">Faucet</a></li><li class="navListItem"><a class="navItem" href="/testdocs/zh-CN/kusama-claims">Claims</a></li><li class="navListItem"><a class="navItem" href="/testdocs/zh-CN/kusama-endpoints">Kusama Endpoints</a></li></ul></div><div class="navGroup subNavGroup"><h4 class="navGroupSubcategoryTitle">What to Try</h4><ul><li class="navListItem"><a class="navItem" href="/testdocs/zh-CN/mirror-maintain-guides-how-to-validate-kusama">Validator Guide</a></li><li class="navListItem"><a class="navItem" href="/testdocs/zh-CN/mirror-maintain-guides-how-to-nominate-kusama">Nominator Guide</a></li><li class="navListItem"><a class="navItem" href="/testdocs/zh-CN/mirror-learn-governance">Governance</a></li><li class="navListItem"><a class="navItem" href="/testdocs/zh-CN/mirror-learn-identity">Identity</a></li><li class="navListItem"><a class="navItem" href="/testdocs/zh-CN/mirror-learn-treasury">Treasury</a></li><li class="navListItem"><a class="navItem" href="/testdocs/zh-CN/mirror-build-build-with-polkadot">Polkadot Builders Starter&#x27;s Guide</a></li><li class="navListItem"><a class="navItem" href="/testdocs/zh-CN/maintain-guides-society-kusama">Join Kappa Sigma Mu</a></li></ul></div><div class="navGroup subNavGroup"><h4 class="navGroupSubcategoryTitle">What to Break</h4><ul><li class="navListItem"><a class="navItem" href="/testdocs/zh-CN/mirror-maintain-errors">Resolving Errors</a></li><li class="navListItem"><a class="navItem" href="/testdocs/zh-CN/kusama-bug-bounty">Bug Bounty</a></li><li class="navListItem"><a class="navItem" href="/testdocs/zh-CN/kusama-adverserial-cheatsheet">Adverserial Cheatsheet</a></li></ul></div><li class="navListItem"><a class="navItem" href="/testdocs/zh-CN/kusama-timeline">Timeline</a></li><li class="navListItem"><a class="navItem" href="/testdocs/zh-CN/kusama-community">Community</a></li><li class="navListItem"><a class="navItem" href="/testdocs/zh-CN/kusama-time-periods">Parameters</a></li><li class="navListItem"><a class="navItem" href="/testdocs/zh-CN/kusama-coc">Code of Conduct</a></li></ul></div></div></section></div><script>
+            var coll = document.getElementsByClassName('collapsible');
+            var checkActiveCategory = true;
+            for (var i = 0; i < coll.length; i++) {
+              var links = coll[i].nextElementSibling.getElementsByTagName('*');
+              if (checkActiveCategory){
+                for (var j = 0; j < links.length; j++) {
+                  if (links[j].classList.contains('navListItemActive')){
+                    coll[i].nextElementSibling.classList.toggle('hide');
+                    coll[i].childNodes[1].classList.toggle('rotate');
+                    checkActiveCategory = false;
+                    break;
+                  }
+                }
+              }
+
+              coll[i].addEventListener('click', function() {
+                var arrow = this.childNodes[1];
+                arrow.classList.toggle('rotate');
+                var content = this.nextElementSibling;
+                content.classList.toggle('hide');
+              });
+            }
+
+            document.addEventListener('DOMContentLoaded', function() {
+              createToggler('#navToggler', '#docsNav', 'docsSliderActive');
+              createToggler('#tocToggler', 'body', 'tocActive');
+
+              var headings = document.querySelector('.toc-headings');
+              headings && headings.addEventListener('click', function(event) {
+                var el = event.target;
+                while(el !== headings){
+                  if (el.tagName === 'A') {
+                    document.body.classList.remove('tocActive');
+                    break;
+                  } else{
+                    el = el.parentNode;
+                  }
+                }
+              }, false);
+
+              function createToggler(togglerSelector, targetSelector, className) {
+                var toggler = document.querySelector(togglerSelector);
+                var target = document.querySelector(targetSelector);
+
+                if (!toggler) {
+                  return;
+                }
+
+                toggler.onclick = function(event) {
+                  event.preventDefault();
+
+                  target.classList.toggle(className);
+                };
+              }
+            });
+        </script></nav></div><div class="container mainContainer docsContainer"><div class="wrapper"><div class="post"><header class="postHeader"><a class="edit-page-link button" href="https://crowdin.com/project/polkadot-wiki/zh-CN" target="_blank" rel="noreferrer noopener">Translate</a><h1 id="__docusaurus" class="postHeaderTitle">Kusama Faucet</h1></header><article><div><span><p>In order to prevent Sybil attacks, the faucet will only drip to users that have a GitHub account that was created prior to June, 21, 2019. If you do not have a GitHub account that was created prior to this date, please use the <a href="https://docs.google.com/forms/d/e/1FAIpQLSfGAqjXY3xLokwl7A-R4JZAnrBnSI3BVXKMKDLCKVtHaxgs-w/formResponse">KSM Request Form</a> to request tokens.</p>
+<h3><a class="anchor" aria-hidden="true" id="requirements"></a><a href="#requirements" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Requirements:</h3>
+<ul>
+<li>Github account with a creation date <strong>before</strong> 21 June 2019</li>
+<li>The address that the user requests a drip to must have never received a drip in the past</li>
+<li>The GitHub user requesting the drip must not have received a drip from the faucet during the past 24 hours</li>
+<li>The address must contain the string <code>ksma</code> (case-insensitive)</li>
+</ul>
+<h3><a class="anchor" aria-hidden="true" id="step-1-generate-an-address"></a><a href="#step-1-generate-an-address" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Step 1: Generate an Address</h3>
+<p>The faucet will only drip to addresses that contain the string <code>ksma</code>(case-insensitive, that is, <code>KSMA</code> or <code>kSmA</code> would work). It will also never drip to the same address twice. Thus, a new address has to be created each time a user requests KSM tokens.</p>
+<p>Obtaining a valid address will require generating numerous addresses until you find one which meets the requirements. You can think of this as a small proof-of-work. You can use the command-line tool <a href="#Using-Subkey">subkey</a>, the web interface (<a href="#Using-PolkadotJS-Dashboard">PolkadotJS Dashboard</a>), or any other program capable of generating arbitrary addresses which meet the requirements of the faucet. You can even code up your own if you like.</p>
+<h4><a class="anchor" aria-hidden="true" id="using-polkadotjs-dashboard"></a><a href="#using-polkadotjs-dashboard" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Using PolkadotJS Dashboard</h4>
+<ol>
+<li><p>Go to <a href="https://polkadot.js.org/apps/#/settings">Settings</a> and select <code>Kusama (canary)</code> on the address network prefix drop-down list, then click <code>Save &amp; Reload</code>. <img src="/img/kusama/faucet_1.png" alt="Faucet 1"></p></li>
+<li><p>Under the <a href="https://polkadot.js.org/apps/#/accounts">Accounts page</a>, select <code>Vanity Address</code> tab. <img src="/img/kusama/faucet_2.png" alt="Faucet 2"></p></li>
+<li><p>Input <code>ksma</code> in the &quot;search for&quot; textbox and leave the &quot;keypair crypto type&quot; by default unless you want to use another type. After this, click <code>Start generation</code>. You may leave YES in the case sensitive field but switching to NO will greatly speed up the process. It may take 10 minutes or more to generate the address pattern you want, depending on the power of your hardware. <img src="/img/kusama/faucet_3.png" alt="Faucet 3"></p></li>
+<li><p>After you see that a valid <code>ksma</code> address has been created, press the blue <code>+</code> button to generate an account. Note that the case does not matter, any of the following are ok: kSmA, KSMA, ksMA, etc.</p></li>
+</ol>
+<p><img src="/testdocs/assets/kusama/save_generated_account.png" alt="Save Generated Account"></p>
+<ol start="5">
+<li>Give your account a name and password, then click &quot;Save&quot; to save the account.</li>
+</ol>
+<p><img src="/testdocs/assets/kusama/create_account.png" alt="Create Account"></p>
+<ol start="6">
+<li>Save the backup file to your local computer.</li>
+</ol>
+<p><img src="/testdocs/assets/kusama/save_backup.png" alt="Save Backup"></p>
+<ol start="7">
+<li>Click on the Accounts tab, or press &quot;My Accounts&quot; at the top of the page, and look for your newly generated account. You can then copy the address to your clipboard by clicking on the dot icon next to the account.</li>
+</ol>
+<p><img src="/testdocs/assets/kusama/select_address.png" alt="Select Address"></p>
+<h4><a class="anchor" aria-hidden="true" id="using-subkey"></a><a href="#using-subkey" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Using subkey</h4>
+<h4><a class="anchor" aria-hidden="true" id="installation"></a><a href="#installation" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Installation</h4>
+<p>You can install <code>subkey</code> with this one-line command:</p>
+<pre><code class="hljs">cargo install <span class="hljs-params">--force</span> <span class="hljs-params">--git</span> https:<span class="hljs-string">//github.com/paritytech/substrate</span> subkey
+</code></pre>
+<p>Alternatively, you can build <code>subkey</code> from the source code.</p>
+<ol>
+<li>Follow the build instructions for <a href="https://substrate.dev/docs/en/overview/getting-started/">Substrate</a>.</li>
+<li>When building, build <code>subkey</code> by typing <code>cargo build -p subkey</code>.</li>
+<li>The executable is <code>./target/debug/subkey</code>.</li>
+</ol>
+<h4><a class="anchor" aria-hidden="true" id="usage"></a><a href="#usage" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Usage</h4>
+<p>The command <code>subkey --network kusama vanity ksma --number 1</code> will generate a single key-pair where the address contains the string <code>ksma</code>.</p>
+<p>Depending on the hardware configuration of your computer and on luck, this computation may take anywhere from a few seconds to approximately 10 minutes.</p>
+<pre><code class="hljs">$ subkey --network kusama vanity ksma --number <span class="hljs-number">1</span>
+Generating key containing pattern <span class="hljs-string">'ksma'</span>
+<span class="hljs-number">100000</span> keys searched; best <span class="hljs-keyword">is</span> <span class="hljs-number">190</span>/<span class="hljs-number">237</span> complete
+<span class="hljs-number">200000</span> keys searched; best <span class="hljs-keyword">is</span> <span class="hljs-number">190</span>/<span class="hljs-number">237</span> complete
+<span class="hljs-number">300000</span> keys searched; best <span class="hljs-keyword">is</span> <span class="hljs-number">190</span>/<span class="hljs-number">237</span> complete
+<span class="hljs-number">400000</span> keys searched; best <span class="hljs-keyword">is</span> <span class="hljs-number">190</span>/<span class="hljs-number">237</span> complete
+<span class="hljs-number">500000</span> keys searched; best <span class="hljs-keyword">is</span> <span class="hljs-number">233</span>/<span class="hljs-number">237</span> complete
+<span class="hljs-number">600000</span> keys searched; best <span class="hljs-keyword">is</span> <span class="hljs-number">233</span>/<span class="hljs-number">237</span> complete
+<span class="hljs-number">700000</span> keys searched; best <span class="hljs-keyword">is</span> <span class="hljs-number">233</span>/<span class="hljs-number">237</span> complete
+best: <span class="hljs-number">238</span> == top: <span class="hljs-number">237</span>
+Secret Key URI `<span class="hljs-number">0x8baef85b7b366ec293fbf761e24572e4e6dd7ba385cbe04bd475a70cc69a5665</span>` <span class="hljs-keyword">is</span> account:
+  Secret seed:      <span class="hljs-number">0x8baef85b7b366ec293fbf761e24572e4e6dd7ba385cbe04bd475a70cc69a5665</span>
+  Public key (hex): <span class="hljs-number">0x60857d605f87e6b58974e7c8e5ad814617428c6017b9ceb4c938d65db34ece3f</span>
+  Account ID:       <span class="hljs-number">0x60857d605f87e6b58974e7c8e5ad814617428c6017b9ceb4c938d65db34ece3f</span>
+  SS58 Address:     Eksmahpd3pYpSBWyg8DXD4e27wZcWF14AZA1evYYvvNXpgs
+</code></pre>
+<p>The <code>Address (SS58)</code> field is the Kusama address that you will need to request KSM to. Notice that the string <code>ksma</code> starts at the second character. Never share your <code>Secret Key</code>, as this controls your funds.</p>
+<p>See the <a href="https://substrate.dev/docs/en/ecosystem/subkey"><code>subkey</code> documentation</a> or enter <code>subkey --help</code> for more usage examples.</p>
+<h3><a class="anchor" aria-hidden="true" id="step-2-submit-an-issue"></a><a href="#step-2-submit-an-issue" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Step 2: Submit an Issue</h3>
+<p>Once you have generated your Kusama address containing the string <code>ksma</code>, you are ready to request KSM from the faucet.</p>
+<ol>
+<li>Log in to Github. Go to the <a href="https://github.com/kusamanetwork/faucet/issues">faucet repo</a> of the Kusama Network organization.</li>
+<li>Click on the Issues tab, then click &quot;New Issue&quot;.</li>
+<li>Enter any text for the &quot;Title&quot; textbox - it will be ignored.</li>
+<li>In the &quot;Leave a comment&quot; textbox, enter the address you generated in Step 1 (which must include the string &quot;ksma&quot;). Do not enter any text other than this address.</li>
+<li>Wait while the faucet verifies the address. Depending on network conditions and server load, this may take a few minutes, but should generally be complete within 30 seconds.</li>
+<li>You will see a comment posted to your issue indicating success or failure. Success means that 0.1 KSM has been sent to the posted address; failure means that there was some problem and no KSM was sent to your address. In the event of failure, the message should indicate what the problem is (e.g., the faucet is dry, the address is invalid).</li>
+<li>The issue will close automatically after you receive a response, whether or not it was a success.</li>
+</ol>
+<h3><a class="anchor" aria-hidden="true" id="after"></a><a href="#after" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>After</h3>
+<p>Remember that you must drip to a different address each time - you will not be able to get a drip from the faucet to this address again. You also may have a more secure way of storing addresses such as cold wallet, or simply keep all of your KSM at one address.</p>
+<p>Therefore, you may wish to move your KSM to a different address after this. You should be able to move your KSM immediately after receiving them.</p>
+<p>Note that you will not be able to transfer the entire 0.1KSM to another account, as there are transfer fees when moving KSM on-chain. Transferring 0.080 KSM should work.</p>
+<h3><a class="anchor" aria-hidden="true" id="notes"></a><a href="#notes" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Notes:</h3>
+<ul>
+<li>A single GitHub account can get 0.1 KSM every 24 hours.</li>
+<li>Remember to post <em>only the address</em> - no other text, and definitely not your seed or mnemonic phrase!</li>
+<li>The total number of KSM available to <em>all users</em> of the faucet is 10 KSM per day.</li>
+</ul>
+<h3><a class="anchor" aria-hidden="true" id="what-to-do-with-my-ksm"></a><a href="#what-to-do-with-my-ksm" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>What To Do With My KSM</h3>
+<p>Owning KSM gives you a stake in the Kusama network. Among the things you can do with your KSM tokens are:</p>
+<ul>
+<li>Transfer them to another account</li>
+<li>Nominate validators and passively earn more KSM</li>
+<li>Support (second) democratic proposals to help make them into active referenda</li>
+<li>Vote for or against active referenda</li>
+<li>Vote and support one or more of your favorite council members</li>
+<li>Set your on-chain identity</li>
+<li>and way more!</li>
+</ul>
+<h3><a class="anchor" aria-hidden="true" id="donations"></a><a href="#donations" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Donations:</h3>
+<p>If you want to support the faucet, please send KSM to this address: <strong>EaG2CRhJWPb7qmdcJvy3LiWdh26Jreu9Dx6R1rXxPmYXoDk</strong></p>
+<p>The faucet's wallet will be periodically refilled from the address above.</p>
+<h3><a class="anchor" aria-hidden="true" id="support"></a><a href="#support" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Support:</h3>
+<p>If you are having difficulties using the faucet, please join the <a href="https://riot.w3f.tech/#/room/#kusamawatercooler:polkadot.builders">Kusama Watercooler chat</a> and somebody will try to help you.</p>
+</span></div></article></div><div class="docLastUpdate"><em>Last updated on 5/5/2020 by w3fbot</em></div><div class="docs-prevnext"><a class="docs-prev button" href="/testdocs/zh-CN/kusama-index"><span class="arrow-prev">← </span><span>Home</span></a><a class="docs-next button" href="/testdocs/zh-CN/kusama-claims"><span>Claims</span><span class="arrow-next"> →</span></a></div></div></div><nav class="onPageNav"></nav></div><footer class="nav-footer" id="footer"><section class="sitemap"><a href="/test" class="nav-home"><img src="/testimg/kusama-brand-assets/Kusama Brand Assets/Symbol (Canary)/Kusama_Canary_white.png" alt="Kusama Guide" width="66" height="58"/></a><div><a href="https://stackoverflow.com/questions/tagged/polkadot" target="_blank" rel="noreferrer noopener">Stack Overflow</a><a href="https://riot.w3f.tech/#/room/#polkadot-watercooler:matrix.org">Polkadot Watercooler (Riot Chat)</a><a href="https://twitter.com/polkadotnetwork" target="_blank" rel="noreferrer noopener">Twitter</a></div><a class="github-button" href="https://github.com/paritytech/polkadot" data-icon="octicon-star" data-count-href="/paritytech/polkadot/stargazers" data-show-count="true" data-count-aria-label="# stargazers on GitHub" aria-label="Star this project on GitHub">Star</a></section><section class="row"><div class="copyright">Copyright © 2020 Web3 Foundation</div><a class="item" href="https://polkadot.network/privacy/">Privacy Policy</a><a class="item" href="#" id="cookie-settings">Cookie Settings</a><script>
+              var cookieSettings = document.getElementById('cookie-settings');
+              cookieSettings.onclick = function() {
+                return klaro.show();
+              };
+              </script></section></footer></div><script type="text/javascript" src="https://cdn.jsdelivr.net/docsearch.js/1/docsearch.min.js"></script><script>
+                document.addEventListener('keyup', function(e) {
+                  if (e.target !== document.body) {
+                    return;
+                  }
+                  // keyCode for '/' (slash)
+                  if (e.keyCode === 191) {
+                    const search = document.getElementById('search_input_react');
+                    search && search.focus();
+                  }
+                });
+              </script><script>
+              var search = docsearch({
+                
+                apiKey: '8bfa06b56bb8f33e5698c7f40b00b38f',
+                indexName: 'polkadot',
+                inputSelector: '#search_input_react',
+                algoliaOptions: {"facetFilters":["language:zh-CN"]}
+              });
+            </script></body></html>
