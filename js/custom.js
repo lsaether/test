@@ -100,6 +100,6 @@ docReady(function () {
 });
 
 // Redirects
-if (!location.href.contains("docs")) {
-    location.href = "test/docs/en/kusama-index"
+if (!location.href.indexOf("docs") === -1) {
+    location.href = "test/docs/en/kusama-index.html"
 }
